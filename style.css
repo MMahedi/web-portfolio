@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -16,4 +17,26 @@ h1{
 .half-width img{
     width: 100%;
     padding: 0px;
+}
+section{
+    height: 500px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    border: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+.down-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
